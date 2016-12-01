@@ -1,2 +1,2 @@
-# reactjs-webpack-hello-world
-A Hello World project using ReactJS + Webpack + Gulp to build
+# Scallywag
+A serverless, ReactJS based application for handling Scrum projects
