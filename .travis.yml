@@ -10,7 +10,6 @@ deploy:
   bucket: scallywag
   skip_cleanup: true
   local-dir: dist
-  upload-dir: disc
   acl: public_read
   on:
     repo: pfernandom/scallywag
