@@ -1,0 +1,8 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$bootstrap-sass-asset-helper: true;
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+body{
+    background: #dfdfdf;
+    font-family: Verdana;
+}
