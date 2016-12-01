@@ -40,7 +40,7 @@ class Main extends React.Component {
 
 
 render((
-	<Router history = {hashHistory}>
+	<Router history = {browserHistory}>
 		<Route path = "/" component = {Main}>
 			<IndexRoute component = {App} />
 			<Route path = "about" component = {About}>
