@@ -1,5 +1,6 @@
 var webpack = require("webpack");
 var config = require('config');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 //var jsxLoader = (config.get('env') === 'development') ? 'react-hot!babel!es2015' : 'babel!es2015';
 //console.log("Loader "+jsxLoader)
@@ -55,6 +56,12 @@ var configuration = {
 			/* chunkName= */"vendor",
 			/* filename= */"vendor.bundle.js"
 		),
+		new HtmlWebpackPlugin({
+			title: 'Scallywag',
+			template: 'index.html',
+			hash:true,
+			favicon: './src/images/favicon/favicon.ico'
+		})
 	]
 }
 
