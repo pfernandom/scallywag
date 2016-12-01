@@ -14,7 +14,6 @@ var configuration = {
 	},
 	output: {
 		path: __dirname + '/dist',
-		publicPath: '/dist/',
 		filename: '[name].js',
 	},
 	devServer: {
